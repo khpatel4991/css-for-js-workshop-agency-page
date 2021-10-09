@@ -25,7 +25,6 @@ header {
 }
 
 .max-width-wrapper {
-  width: 100%;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -37,7 +36,7 @@ h3 {
 }
 
 .intro-chunk {
-  padding: 64px 16px 32px 16px;
+  padding: 96px 16px 32px 16px;
   max-width: 400px;
 }
 
@@ -46,16 +45,16 @@ h3 {
   padding-bottom: 24px;
 }
 
-p {
-  color: #202020;
+.intro-chunk p {
+  font-size: 1.25rem;
 }
 
-p strong {
+.intro-chunk p strong {
   color: #009966;
 }
 
 main {
-  margin-block-start: 64px;
+  margin-block-start: 96px;
 }
 
 .indented-heading {
@@ -69,7 +68,12 @@ main {
 }
 
 .card {
-  padding: 8px 16px 32px 16px;
+  padding: 24px;
+  margin: -24px;
   background-color: white;
   border-bottom: 6px solid #666666;
+}
+
+.card p {
+  padding: 0px 8px;
 }
